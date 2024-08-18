@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cloudflare-request"
+version = "0.1.0"
+description = ""
+authors = ["binsarjr <binsarjr121@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cloudscraper = "^1.2.71"
+sanic = "^24.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
